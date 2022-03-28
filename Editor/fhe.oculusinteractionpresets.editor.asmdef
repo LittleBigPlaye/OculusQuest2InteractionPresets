@@ -1,3 +1,14 @@
 {
-	"name": "com.fhe.oculusinteractionpresets"
+    "name": "com.fhe.oculusinteractionpresets",
+    "rootNamespace": "FHE.QuestInteractionPresets",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
