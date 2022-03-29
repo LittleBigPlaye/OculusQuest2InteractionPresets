@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FHE.QuestInteractionPresets.Movement
 {
-
+    [RequireComponent(typeof(CharacterController))]
     public class OVRContinuousMovementController : MonoBehaviour
     {
 
