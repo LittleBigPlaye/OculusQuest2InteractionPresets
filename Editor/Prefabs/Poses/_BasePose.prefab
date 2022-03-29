@@ -93,7 +93,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aebd5da9a8bd22243b407f1927f4965b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _activeStates: []
+  _activeStates:
+  - {fileID: 5233900879186282292}
+  - {fileID: 3524214318462035503}
   _logicOperator: 0
 --- !u!114 &5233900879186282292
 MonoBehaviour:
