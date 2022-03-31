@@ -24,7 +24,7 @@ namespace FHE.QuestInteractionPresets.Movement
             _cameraRig = GetComponent<OVRCameraRig>();
         }
 
-        private void Update()
+        private void LateUpdate()
         {
             UpdateMovement();
             UpdateRotation();
@@ -52,8 +52,6 @@ namespace FHE.QuestInteractionPresets.Movement
             if (!_shouldTurnLeft && !_shouldTurnRight) return;
 
             float currentRotationSpeed = (_shouldTurnLeft) ? -rotationSpeed : rotationSpeed;
-
-            Debug.Log("Test");
 
             Vector3 targetRotation = transform.rotation.eulerAngles;
             targetRotation.y += currentRotationSpeed * Time.deltaTime;
